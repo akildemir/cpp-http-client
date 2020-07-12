@@ -1,4 +1,4 @@
-# Definition
+# Introduction
 Simple, easy to use, header only http-client library that uses boost asio and beast under the hood.
 Brings boost beast to application level usage.
 
@@ -18,7 +18,7 @@ Just clone this repo and place headers files to your include path and you are do
 
 #### ASynchronous call example
 
-````
+````cpp
 #include "httpasync.hpp" //include http async client
 #include <iostream>
 #include <map>
@@ -50,7 +50,7 @@ int main(){
 ````
 #### Synchronous call example
 
-````
+````cpp
 #include "http.hpp" //include http client
 #include <iostream>
 #include <map>
