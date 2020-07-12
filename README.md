@@ -67,7 +67,7 @@ int main(){
     std::map<std::string, std::string> headers;
     headers.insert(std::pair<std::string, std::string>("Content-Type", "application/json"));
 
-    //make a http get request
+    //make a http post request
     auto result =  http.post("https://postman-echo.com/post", body, headers);
 
     //print result
