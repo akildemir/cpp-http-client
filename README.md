@@ -6,6 +6,10 @@ Brings boost beast to application level usage.
 - [Boost 1.72](https://www.boost.org/) (You can install boost using apt in Linux and Homebrew in Mac OS X)
 - [Boost certify](https://github.com/djarek/certify) (boost 1.72 doesn't come with Certify. Certify is also header-only library. Clone Certfiy repo and place the header files under boost install directory.)
 
+## Installation
+
+Just clone this repo and place headers files to your include path and you are done.
+
 ## Features
 - Supports HTTP/HTTPS 1.1
 - Supoorts both synchronous and asynchronous http calls
